@@ -1,0 +1,18 @@
+[
+  {
+    "localPort": 6379,
+    "elasticacheEndpoint": "abcd.cache.amazonaws.com",
+    "elasticachePort": 6379,
+    "ec2Endpoint": "aaaa.ec2.amazon.com",
+    "ec2User" : "ubuntu",
+    "ec2Cert": "~/.ssh/EC2.pem"
+  },
+  {
+    "localPort": 6378,
+    "elasticacheEndpoint": "efgh.cache.amazonaws.com",
+    "elasticachePort": 6379,
+    "ec2Endpoint": "aaaa.ec2.amazon.com",
+    "ec2User" : "ubuntu",
+    ec2Cert: "~/.ssh/EC2.pem"
+  }
+]

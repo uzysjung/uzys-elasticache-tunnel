@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+"use strict";
+var program = require('commander');
+var app = require('../lib');
+
+
+program.version('0.0.1');
+
+program
+    .command('start [filename]')
+    .description('start tunneling with configuration file (default: config.json)')
+    .action(function(filename){
+        if(typeof filename !== 'string') filename = "config.json";
+        app.start(filename);
+    });
+
+program
+    .command('stop')
+    .description('stop tunneling')
+    .action(function(){
+        app.stop();
+    });
+
+program
+    .command('status')
+    .description('show tunneling status')
+    .action(function(){
+        app.status();
+    });
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+    program.outputHelp();
+}
