@@ -1,4 +1,6 @@
 # uzys-elasticache-tunnel
+[![Build Status](https://travis-ci.org/uzysjung/uzys-elasticache-tunnel.svg?branch=master)](http://travis-ci.org/uzysjung/uzys-elasticache-tunnel)
+
 You can connect to elasticache outside the aws network
 
 ## Installation
