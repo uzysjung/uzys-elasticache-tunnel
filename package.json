@@ -1,30 +1,41 @@
 {
   "name": "uzys-elasticache-tunnel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "You can connect to elasticache outside the aws network for development",
   "main": "index.js",
   "scripts": {
     "test": "lab -C -c -m 5000"
   },
-
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "dependencies": {
     "colors": "^0.6",
     "commander": "^2.0",
-    "underscore":"^1.8.3",
-    "async":"^1.4.0"
+    "underscore": "^1.8.3",
+    "async": "^1.4.0"
   },
   "devDependencies": {
     "code": "^1.4.1",
     "lab": "^5.13.0"
   },
   "bin": {
-    "elasticache-tunnel": "bin/elasticache-tunnel"
+    "elasticache-tunnel": "bin/uzys-elasticache-tunnel"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uzysjung/uzys-elasticache-tunnel.git"
   },
-  "keywords":"elasticache,ssh,tunneling,redis,aws",
+  "keywords": [
+    "elasticache,ssh,tunneling,redis,aws"
+  ],
   "author": "uzysjung",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uzysjung/uzys-elasticache-tunnel/issues"
+  },
+  "homepage": "https://github.com/uzysjung/uzys-elasticache-tunnel#readme",
+  "directories": {
+    "test": "test"
+  }
 }
