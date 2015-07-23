@@ -20,7 +20,7 @@
     "lab": "^5.13.0"
   },
   "bin": {
-    "elasticache-tunnel": "bin/uzys-elasticache-tunnel"
+    "uzys-elasticache-tunnel": "bin/uzys-elasticache-tunnel"
   },
   "repository": {
     "type": "git",
