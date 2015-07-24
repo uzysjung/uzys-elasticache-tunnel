@@ -4,7 +4,7 @@ var program = require('commander');
 var app = require('../lib');
 
 
-program.version('0.0.1');
+program.version(require('../package.json').version);
 
 program
     .command('start [filename]')
