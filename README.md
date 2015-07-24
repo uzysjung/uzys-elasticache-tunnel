@@ -8,7 +8,7 @@ You can connect to elasticache outside the aws network
 
 You can install this through [npm](https://npmjs.org):
 
-`npm install uzys-elasticache-tunnel`
+`npm install -g uzys-elasticache-tunnel`
 
 ## Requirements
  - Elasticache Endpoint (want to connect)
