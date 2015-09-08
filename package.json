@@ -1,6 +1,6 @@
 {
   "name": "uzys-elasticache-tunnel",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "You can connect to elasticache outside the aws network for development",
   "main": "index.js",
   "scripts": {
